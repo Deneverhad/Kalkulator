@@ -60,6 +60,10 @@ public class Main {
 
         return Numbers;
     }
+    public static void View()
+    {
+        System.out.println("Thats the change");
+    }
 
 
 }
