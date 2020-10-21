@@ -15,7 +15,7 @@ public class Main {
         String Choose = scan.next();
         List<String> NumbersList= new ArrayList();
         NumbersList = List();
-        BVM();
+
         String[] numbers = NumbersList.toArray( new String[] {} );
         try {
             wybor = Integer.parseInt(Choose);
@@ -59,10 +59,6 @@ public class Main {
         Numbers.remove(i);
 
         return Numbers;
-    }
-    public static void BVM()
-    {
-        System.out.println("DOne");
     }
 
 
