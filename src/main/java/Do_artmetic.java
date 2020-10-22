@@ -1,5 +1,3 @@
-import java.util.InvalidPropertiesFormatException;
-
 import static java.lang.System.exit;
 
 public class Do_artmetic implements Methods{
@@ -54,7 +52,7 @@ public class Do_artmetic implements Methods{
         try {
             double divide = Double.parseDouble( array[0] );
             for (int i = 1; i < size; i++) {
-                divide = divide/Double.parseDouble( array[i] ) ;
+                divide = divide/Double.parseDouble(array[i]) ;
             }
             System.out.println("Dzielenie wynosi: "+  divide);
         }
